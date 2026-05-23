@@ -1,0 +1,27 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.range {
+  flex: 1;
+  height: 4px;
+  cursor: pointer;
+  accent-color: var(--accent);
+  border: none;
+  border-radius: 2px;
+  background: var(--border);
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0;
+  outline: none;
+}
+
+.value {
+  font-size: 13px;
+  color: var(--accent);
+  min-width: 28px;
+  text-align: right;
+  font-family: 'JetBrains Mono', monospace;
+}
